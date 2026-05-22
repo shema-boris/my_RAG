@@ -1,0 +1,30 @@
+#Document loading
+pypdf==4.3.1
+python-docx==1.1.2
+
+# Chuncking & orchestration
+
+langchain==0.2.16
+langchain-community==0.2.16
+
+# Embeddings
+
+sentence-transformers==3.0.1
+openai==1.40.0
+
+# Vector store
+
+chromadb==0.5.5
+
+# LLM API
+
+anthropic==0.34.0 
+
+# Config & utilities
+
+python-dotenv==1.0.1
+click==8.1.7
+
+# UI
+
+streamlit==1.37.0
