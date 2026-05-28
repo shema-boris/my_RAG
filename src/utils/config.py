@@ -1,10 +1,13 @@
-# We will store some functions here for our codebase to be clean. Some code that we will use across the codebase
-
-## Logic for pypdf to extract the text from the pdf files. 
 import os
 from dotenv import load_dotenv
-def get_config()->dict:
-    load_dotenv()
-    config={
-        
+
+load_dotenv()
+
+COLLECTIONS = {
+    "general": "general",
+}
+
+def get_config() -> dict:
+    return {
+        "openai_api_key": os.getenv("OPENAI_API_KEY"),
     }
